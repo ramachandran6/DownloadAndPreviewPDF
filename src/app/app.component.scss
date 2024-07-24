@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pdf-container {
+  flex: 1;
+}
+
+.title{
+  font-size: 29px;
+  background-color: antiquewhite;
+}
+
+.pdf-viewer {
+  padding: 10px;
+  overflow-y: auto;
+  height: 759px;
+  width: 480px;
+  margin: 30px;
+
+  &__img{
+    height: 100px;
+  }
+}
+
+.download-btn {
+  margin-top: 10px;
+}
+
+.form-container {
+  flex: 1;
+}
+
+.name {
+  color: red;
+}
+
+form {
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.paragraph{
+  font-size: 10px;
+  width: 450px;
+}
